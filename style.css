@@ -446,5 +446,25 @@ label, input {
 }
 
 @media only screen and (max-device-width: 480px) {
+		#apropos {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		h1 {
+			font-size: 50px;
+		}
+		h2 {
+			font-size: 25px;
+		}
+		h3 {
+			font-size: 25px;
+		}
+		h1, h2 {
+		padding-left: 10px;
+		}
+		.droite {
+			margin-left: 0;
+			margin-right: 0;
+		}	
 
 	}
