@@ -79,6 +79,7 @@ header {
 	  ". .";*/
 	padding-bottom: 100px;
 	box-shadow: 0px 0px 15px #95afc0;
+	height: 90vh;
 }
 
 #navbar {
@@ -89,8 +90,8 @@ header {
 	gap: 0px 0px;
 	grid-template-areas:
 	  ". . . .";*/
-	font-family: 'Bebas Neue', cursive;
-	font-size: 30px;
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 30px !important;
 	padding: 40px 10px 40px 10px;
 }
 
@@ -397,6 +398,11 @@ label, input {
 	.a:hover {
 		letter-spacing: 0px;
 	}
+	.photo {
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+	}
 }
 
 @media (max-width: 730px) {
@@ -438,3 +444,7 @@ label, input {
 		text-align: center;
 	}
 }
+
+@media only screen and (max-device-width: 480px) {
+
+	}
