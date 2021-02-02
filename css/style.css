@@ -84,12 +84,6 @@ header {
 
 #navbar {
 	position: relative;
-	/*display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	  ". . . .";*/
 	font-family: 'Bebas Neue', cursive !important;
 	font-size: 30px !important;
 	padding: 40px 10px 40px 10px;
@@ -105,7 +99,6 @@ header {
 	text-decoration: none;
 	letter-spacing: 3px;
 }
-
 
 .photo {
 	width: 340px;
@@ -132,7 +125,7 @@ nav {
 	word-spacing: 20px;
 }
 
-h1, h2 {
+h1, .webdev {
 	color: white;
 	text-align: left;
 	font-family: 'Bebas Neue', cursive;
@@ -172,7 +165,7 @@ h1 {
 	letter-spacing: 15px;
 }
 
-h2 {
+.webdev {
 	font-size: 50px;
 	padding-bottom: 30px;
 	color: #eb4d4b;
@@ -336,6 +329,11 @@ h2 {
 #end {
 	background: rgb(255,190,118);
 	background: radial-gradient(circle, rgba(255,190,118,1) 0%, rgba(255,121,121,1) 100%);
+	padding-bottom: 100px;
+}
+
+#contact {
+	padding-bottom: 20px;
 }
 
 h3 {
@@ -344,7 +342,7 @@ h3 {
 	line-height: 90%;
 	letter-spacing: 15px;
 	color: white;
-	padding-left: 300px;
+	text-align: center;
 	padding-bottom: 15px;
 }
 
@@ -376,17 +374,30 @@ label, input {
 	box-shadow: 0px 0px 15px #30336b;
 }
 
+.page-section {
+	padding-top: 50px;
+}
+
+#mail {
+	color: black;
+}
+
+.info {
+	padding-top: 20px;
+}
+
+
 /*RESPONSIVE*/
 
 @media (max-width: 768px) {
-	h1, h2 {
+	h1, .webdev {
 		padding-left: 50px;
 		transition: none;
 	}
 	h1 {
 		font-size: 50px;
 	}
-	h2 {
+	.webdev {
 		font-size: 10px;
 	}
 	h1:hover {
@@ -409,7 +420,7 @@ label, input {
 	h1 {
 		font-size: 20px;
 	}
-	h2 {
+	.webdev {
 		font-size: 8px;
 	}
 }
@@ -426,10 +437,10 @@ label, input {
 	h1 {
 		font-size: 80px;
 	}
-	h2 {
+	.webdev {
 		font-size: 40px;
 	}
-	h1, h2 {
+	h1, .webdev {
 		padding-left: 100px;
 	}
 	#btn {
@@ -453,13 +464,13 @@ label, input {
 		h1 {
 			font-size: 50px;
 		}
-		h2 {
+		.webdev {
 			font-size: 25px;
 		}
 		h3 {
 			font-size: 25px;
 		}
-		h1, h2 {
+		h1, .webdev {
 		padding-left: 10px;
 		}
 		.droite {
@@ -468,3 +479,20 @@ label, input {
 		}	
 
 	}
+
+/* Portfolio */
+
+#projects {
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 50px;
+	padding-bottom: 30px;
+	color: #eb4d4b;
+}
+
+.h2 {
+	font-family: 'Bebas Neue', cursive !important;
+}
+
+#paragraphe {
+	font-family: 'Montserrat', sans-serif;
+}
